@@ -59,4 +59,43 @@ body{
 #Downloads a:hover {
     background-color:rgb(84, 231, 54)
 }
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: black;
+    background-size: 100%;
+    background-color: gray;
+    padding: 20pt;
+}
 
+:hover {
+
+}
+
+.container-1 {
+    display: flex;
+}
+
+.box-1 {
+    flex: 1;
+    order: 1;
+    background-image: url(../image_1.jpg);
+    height: 400pt;
+    background-size: cover;
+    text-align: right;
+    background-repeat: no-repeat;
+    width: auto;
+    flex-basis: 15%;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.box-2 {
+    flex: 1;
+    order: 2;
+    align-self: flex-start;
+    flex-basis: 85%;
+    padding: 2%;
+    height: 400pt;
+}
